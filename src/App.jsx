@@ -9,10 +9,8 @@ import Login from './components/auth/login';
 import Signup from './components/auth/signup';
 import Dashboard from './components/dashboard/Dashboard';
 import Home from './components/home/Home'
-import Parent from './components/dashboard/test1'; 
 import AdminDashboard from './components/dashboard/AdminDashboard';
 
-import CloudDashboard from "./components/dashboard/claudetest";
 
 
 function App() {
@@ -25,10 +23,10 @@ function App() {
         <Route path="/" element={<Home />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/signup" element={<Signup />}></Route>
-        <Route path="/forgetpwd" element={<Forgetpwd />}></Route>
-        <Route path="/parent" element={<Parent />}></Route>
+        <Route path="/forget-password" element={<Forgetpwd />}></Route>
+        <Route path="/dashboard" element={<Dashboard />}></Route>
         <Route path="/admin" element={<AdminDashboard />}></Route>
-        <Route path="/claude" element={<CloudDashboard />}></Route>
+        
 
       </Routes>
     </BrowserRouter>
