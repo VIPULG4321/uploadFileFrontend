@@ -66,7 +66,7 @@ const FileItem = ({ fileName, size, uploadDate, onDelete, onDownload }) => {
   );
 };
 
-const Component1 = () => {
+const AllFiles = () => {
   const [filterData, setFilterData] = useState([]);
   const [searchQuery, setsearchQuery] = useState(0);
 
@@ -322,4 +322,4 @@ const Component1 = () => {
   );
 };
 
-export default Component1;
+export default AllFiles;
